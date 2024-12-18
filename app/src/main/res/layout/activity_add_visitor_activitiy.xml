@@ -1,0 +1,98 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090909"
+        android:text="First Name"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#090909"
+        android:layout_margin="10dp"
+        android:textColor="#090909"
+        android:id="@+id/name"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090909"
+        android:text="Last Name"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#090909"
+        android:layout_margin="10dp"
+        android:textColor="#090909"
+        android:id="@+id/name1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090909"
+        android:text="Purpose"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#090909"
+        android:layout_margin="10dp"
+        android:textColor="#090909"
+        android:id="@+id/purpose"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090909"
+        android:text="Whom To Meet"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#090909"
+        android:layout_margin="10dp"
+        android:textColor="#090909"
+        android:id="@+id/meet"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="SUBMIT"
+        android:textColor="#FFFFFF"
+        android:background="#4A90E2"
+        android:id="@+id/submitbutt"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="BACK TO MENU"
+        android:textColor="#FFFFFF"
+        android:background="#4A90E2"
+        android:id="@+id/backtobutt"
+        />
+</LinearLayout>
